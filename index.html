@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Car {
+            constructor(brand, color, maxSpeed, chassisNumber) {
+                this.brand = brand;
+                this.color = color;
+                this.maxSpeed = maxSpeed;
+                this.chassisNumber = chassisNumber;
+            }
+
+            drive(){
+                document.writeln(`${this.brand} ${this.color} is driving`);
+            }
+
+            reverse(){
+                document.writeln(`${this.brand} ${this.color} is reversing`);
+            }
+
+            turn(){
+                document.writeln(`${this.brand} ${this.color} is turning`);
+            }
+
+        }
+
+        const car1 = new Car('Toyota', 'Blue', 180, 'toyota-1');
+
+        document.writeln(car1);
+        car1.drive();
+    </script>
+</body>
+
+</html>
