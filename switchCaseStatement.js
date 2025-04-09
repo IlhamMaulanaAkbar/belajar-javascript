@@ -1,21 +1,19 @@
-let area = "";
-
+let area = 4;
 
 switch (area) {
-    case "Kawasan 1":
-        not = "Kawasan Bebas Rokok";
+    case 1:
+        console.log("Kawasan Bebas Rokok");
         break;
-    case "Kawasan 2":
-        not = "Kawasan Dilarang Merokok";
+    case 2:
+        console.log("Kawasan Dilarang Merokok");
         break;
-    case "Kawasan 3":
-        not = "Kawasan Pengunjung";
+    case 3:
+        console.log("Kawasan Pengunjung");
         break;
-    case "Kawasan 4":
-        not = "Kawasan Karyawan";
-        break;            
+    case 4:
+        console.log("Kawasan Karyawan");
+        break;
     default:
-        not = "Kawasan Bebas"    
+        console.log("Kawasan Bebas");
 }
 
-console.log(not);

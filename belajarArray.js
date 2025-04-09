@@ -1,4 +1,8 @@
-const myArray = ["Ilham", 22.1, 10, false, 'Programming'];
+const myArray = ["Buku", 1, "Anonim", false, 'Programming'];
+
+for (let value of myArray) {
+    console.log(value); // Menampilkan Nilai Array
+}
 
 myArray.push('JavaScript'); // Push = Menambahkan Nilai Dipaling Akhir Array 
 myArray.pop('JavaScript'); // Pop = Menghapus Nilai Dipaling Akhir Array

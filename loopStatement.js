@@ -1,7 +1,10 @@
-// for (let x = 1; x <= 6; x++) {
-//     console.log(x);
-// }
-
-for (let i = 3; i <= 30; i++){
-    console.log(i);
+for (let i = 1; i <= 10; i++){
+    console.log(`Cetakan Angka Ke-${i}`);
 }
+
+// output 
+// Cetakan Angka Ke-1
+// Cetakan Angka Ke-2
+// Cetakan Angka Ke-3
+// ...
+// Cetakan Angka Ke-10
