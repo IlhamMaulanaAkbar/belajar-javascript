@@ -33,7 +33,7 @@ class Mahasiswa extends Pengguna {
     }
 }
 
-const mhs1 = new Mahasiswa('Wahyu', 'wahyu@gmail.com', '201', 'TI');
+const mhs1 = new Mahasiswa('John', 'john@gmail.com', '201', 'TI');
 
 mhs1.login();
 console.log(mhs1.getDataMahasiswa());
